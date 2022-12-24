@@ -12,22 +12,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeActivity"
+        <activity
+            android:exported="true"
+            android:name=".WelcomeActivity"
                     android:theme="@style/AppThemeNoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity">
+        <activity
+            android:exported="true"
+            android:name=".LoginActivity">
         </activity>
-        <activity android:name=".Activity.MainActivity">
+        <activity
+            android:exported="true"
+            android:name=".Activity.MainActivity">
         </activity>
-        <activity android:name=".Activity.CartListActivity">
+        <activity
+            android:exported="true"
+            android:name=".Activity.CartListActivity">
         </activity>
-        <activity android:name=".Activity.ItemDetailActivity">
+        <activity
+            android:exported="true"
+            android:name=".Activity.ItemDetailActivity">
         </activity>
-        <activity android:name=".Activity.QrScanActivity">
+        <activity
+            android:exported="true"
+            android:name=".Activity.QrScanActivity">
         </activity>
     </application>
 
