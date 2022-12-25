@@ -2,8 +2,8 @@ package com.punyakita.portalevent.Service;
 
 public class ConfigApi {
 
-    public static final String URL_API = "http://192.168.43.254:8000/api/";
-    public static final String URL_DATA_FILE = "http://192.168.43.254:8000/data_file/";
+    public static final String URL_API = "http://192.168.1.50:8001/api/";
+    public static final String URL_DATA_FILE = "http://192.168.1.50:8001/data_file/";
 
     public static final String JSON_SUCCESS = "success";
     public static final String JSON_DATA = "data";
